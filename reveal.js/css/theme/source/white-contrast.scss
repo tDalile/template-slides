@@ -1,6 +1,16 @@
+/**
+ * White compact & high contrast reveal.js theme, with headers not in capitals.
+ *
+ * By Peter Kehl. Based on white.(s)css by Hakim El Hattab, http://hakim.se
+ *
+ * - Keep the source similar to black.css - for easy comparison.
+ * - $mainFontSize controls code blocks, too (although under some ratio).
+ */
+
+
 // Default mixins and settings -----------------
-@import "template/mixins";
-@import "template/settings";
+@import "../template/mixins";
+@import "../template/settings";
 // ---------------------------------------------
 
 
@@ -11,17 +21,17 @@
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #fff;
 
-$mainColor: #222;
-$headingColor: #222;
+$mainColor: #000;
+$headingColor: #000;
 
-$mainFontSize: 30px;
+$mainFontSize: 42px;
 $mainFont: 'Source Sans Pro', Helvetica, sans-serif;
 $headingFont: 'Source Sans Pro', Helvetica, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: uppercase;
 $headingFontWeight: 600;
-$linkColor: orange;
+$linkColor: #2a76dd;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
@@ -33,8 +43,7 @@ $heading4Size: 1.0em;
 // Change text colors against dark slide backgrounds
 @include dark-bg-text-color(#fff);
 
-// Theme template ------------------------------
-@import "template/theme";
-// ---------------------------------------------
 
-// testing
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
