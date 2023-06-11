@@ -6,7 +6,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --r-background-color: #fff;
+  --r-background-color: #FFFFFF;
   --r-main-font: Source Sans Pro, Helvetica, sans-serif;
   --r-main-font-size: 30px;
   --r-main-color: #222;
@@ -25,14 +25,14 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --r-heading3-size: 1.3em;
   --r-heading4-size: 1em;
   --r-code-font: monospace;
-  --r-link-color: orange;
-  --r-link-color-dark: #b37400;
-  --r-link-color-hover: #ffc04d;
-  --r-selection-background-color: #ffd280;
+  --r-link-color: #D7471F;
+  --r-link-color-dark: #943115;
+  --r-link-color-hover: #e77a5b;
+  --r-selection-background-color: #ee9e88;
   --r-selection-color: #fff; }
 
 .reveal-viewport {
-  background: #fff;
+  background: #FFFFFF;
   background-color: var(--r-background-color); }
 
 .reveal {
@@ -299,11 +299,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  * CUSTOM HEADER
  *********************************************/
 .reveal #header-left {
-  position: absolute;
-  top: 1%;
-  left: 1.7%;
-  padding: 0;
-  margin: 0; }
+  position: absolute; }
 
 .reveal #header-right {
   position: absolute;
